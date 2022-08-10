@@ -1,11 +1,11 @@
 public class Main {
     public static void main(String[] args) {
 //Задание 1
-        int clientOs = 0;
+        int clientOs = 1;
         if (clientOs == 0) {
             System.out.println("Установите версию приложения для iOS по ссылке");
         }
-        if (clientOs <= 1) {
+        if (clientOs == 1) {
             System.out.println("Установите версию приложения для Android по ссылке");
         }
 //Задание 2
@@ -24,18 +24,18 @@ public class Main {
 //Задание 3
 
 // Высокостным год является каждый четвертый год, но не является  каждый сотый. также высокостным является каждый четырех=сотый год.
-        var year = 2021;
+        var year = 2020;
         if (year % 100 == 0 && year % 400 == 0)
-            System.out.println("Год является высокостным");
+            System.out.println("Год является високостным");
         else if (year % 4 == 0 && year % 100 > 0)
-            System.out.println("Год является высокостным");
+            System.out.println("Год является високостным");
         else if (year % 100 == 0)
-            System.out.println("Год не является высокостным");
+            System.out.println("Год не является високостным");
         else
-            System.out.println("Год не является высокостным");
+            System.out.println("Год не является високостным");
 
 //Задание 4
-        int deliveryDistance = 10;
+        int deliveryDistance = 30;
         int deliveryTime = 1;
         if (deliveryDistance <= 20) {
             System.out.println("Потребуется дней " + deliveryTime);
@@ -49,7 +49,7 @@ public class Main {
         }
 
 //Задание 5
-        int monthNumber = 12;
+        int monthNumber = 7;
 
         switch (monthNumber) {
             case 1:
